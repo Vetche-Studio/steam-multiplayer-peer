@@ -88,3 +88,4 @@ copy = env.InstallAs("{}/bin/{}/lib{}".format(projectdir, env["platform"], file)
 
 default_args = [library, copy]
 Default(*default_args)
+
