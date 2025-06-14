@@ -2,3 +2,6 @@
 [submodule "godot-cpp"]
 	path = godot-cpp
 	url = https://github.com/godotengine/godot-cpp.git
+[submodule "steam-multiplayer-peer/sdk/steamworks-sdk"]
+	path = steam-multiplayer-peer/sdk/steamworks-sdk
+	url = git@github.com:Vetche-Studio/steamworks-sdk.git
