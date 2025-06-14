@@ -59,7 +59,7 @@ elif env['platform'] == "windows":
     steamworks_library = 'steam_api64.dll' if env['arch'] == 'x86_64' else 'steam_api.dll'
 
 env.Append(LIBPATH=[steam_lib_path])
-env.Append(CPPPATH=['steam-multiplayer-peer/sdk/public'])
+env.Append(CPPPATH=['steam-multiplayer-peer/steamworks-sdk/public'])
 env.Append(LIBS=[
     steamworks_library.replace(".dll", "")
 ])
